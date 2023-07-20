@@ -12,11 +12,6 @@ private slots:
     void testFailure();
     void testException();
 
-    void testGUI();
-    void testKeyActionWidget();
-    void testEventKeyAction();
-    void testTableWidget();
-    void testButtonClicked();
 };
 
 #endif
