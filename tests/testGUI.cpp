@@ -11,7 +11,6 @@
 
 // GUI examples
 
-
 void TestGUI::testGUI() // the test from the official page: https://doc.qt.io/qt-6/qttestlib-tutorial3-example.html
 {
     QLineEdit lineEdit;
@@ -73,4 +72,4 @@ void TestGUI::testButtonClicked()
 }
 
 //QTEST_MAIN(TestGUI)
-
+static TestGUI TEST_QSTRING;

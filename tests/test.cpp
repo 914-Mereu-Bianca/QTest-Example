@@ -34,3 +34,4 @@ void Test::testException()
 
 
 //QTEST_MAIN(Test)
+static Test TEST_QSTRING;

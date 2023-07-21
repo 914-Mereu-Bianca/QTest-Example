@@ -1,11 +1,14 @@
 #ifndef _TEST_H_
 #define _TEST_H_
 
-#include <QObject>
+#include "../suite.h"
 
-class Test : public QObject {
+class Test : public TestSuite {
     Q_OBJECT
     
+public:
+    using TestSuite::TestSuite;
+
 private slots:
     void testAddNr();
     void testCompare();

@@ -1,12 +1,14 @@
 #ifndef _TESTGUI_H_
 #define _TESTGUI_H_
 
-#include <QObject>
+#include "../suite.h"
 
-
-class TestGUI : public QObject {
+class TestGUI : public TestSuite {
     Q_OBJECT
     
+public:
+    using TestSuite::TestSuite;
+
 private slots:
 
     void testGUI();
